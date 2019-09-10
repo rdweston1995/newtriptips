@@ -1,0 +1,43 @@
+.header {
+  color: #c6c8c3;
+  padding: 15px;
+  font-family: "Luckiest Guy", cursive;
+  font-size: 100px;
+  text-align: right;
+  margin-bottom: 0px;
+  position: absolute;
+  z-index: 1;
+  margin-top: 0px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+  -webkit-transition: height 0.2s ease-in-out;
+  transition: height 0.2s ease-in-out;
+  height: 77px;
+}
+
+h1 {
+  text-shadow: 2px 2px 4px #000000;
+}
+
+/* .Nav-menus {
+  display: flex;
+  flex-direction: row;
+  height: 77px;
+  width: 70%;
+  margin: 0 auto;
+  padding: 26px 40px;
+} */
+
+/* i.Nav {
+  background-color: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.0975);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+  -webkit-transition: height 0.2s ease-in-out;
+  transition: height 0.2s ease-in-out;
+  height: 77px;
+} */

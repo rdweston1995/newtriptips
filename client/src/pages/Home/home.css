@@ -1,0 +1,70 @@
+.app {
+    margin-top: 0px;
+  }
+  
+  .bkg-photo-home {
+    position: fixed;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    margin: 0;
+  }
+  
+  .bkg {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+  }
+  
+  .btn-container {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .btn {
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #2f6690;
+    color: white;
+    text-shadow: 1px 1px 2px white;
+    font-size: 24px;
+    font-family: "Special Elite", cursive;
+    padding: 24px 48px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px;
+    text-decoration: none;
+    width: 450px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .btn:hover {
+    background-color: #2f6690;
+    text-decoration: none;
+  }
+  
+  .dev-cred {
+    color: #2f6690;
+    text-align: center;
+    margin-bottom: 7px;
+    font-family: "Special Elite", cursive;
+    text-shadow: 1px 1px 2px black;
+  }
+  
+  a:hover {
+    color: white;
+    background-color: white;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: white;
+    /* background-color: black; */
+    text-decoration: none;
+  }
